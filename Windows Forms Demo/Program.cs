@@ -1,5 +1,3 @@
-using System.Diagnostics;
-
 namespace Windows_Forms_Demo
 {
     internal static class Program
@@ -12,9 +10,8 @@ namespace Windows_Forms_Demo
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            // ApplicationConfiguration.Initialize();
-            // Application.Run(new Form1());
-            Debug.WriteLine("Hello World");
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Menu());
         }
     }
 }
